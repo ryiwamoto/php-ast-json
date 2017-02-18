@@ -6,5 +6,5 @@
 ast.php's output is JSON that represents AST.
 remove_lineno.php filters out lineno and doccomment from AST.
 ```sh
-php ./bin/ast.php /your/file/path.php | php ./bin/remove_lineno.php
+cat /your/file.php | php ./bin/ast.php | php ./bin/remove_lineno.php
 ```
