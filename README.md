@@ -1,4 +1,4 @@
-## INSTLATION
+## INSTALLATION
 1. install PHP7
 2. install [ast extension](https://github.com/nikic/php-ast)
 
